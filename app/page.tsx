@@ -175,7 +175,7 @@ export default function HomePage() {
             Secure, AI-powered patient management for modern healthcare departments.
           </p>
           <p style={{ color: '#718096', fontSize: '14px' }}>
-            © {new Date().getFullYear()} MedVault. All rights reserved.
+            © {new Date().getFullYear()} Hex Technologies. All rights reserved.
           </p>
         </div>
       </footer>
