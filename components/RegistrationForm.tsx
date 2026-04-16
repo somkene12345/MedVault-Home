@@ -39,8 +39,8 @@ export default function RegistrationForm({ selectedAmount, selectedPlan, onSucce
   const [qrAndroidUrl, setQrAndroidUrl] = useState('')
   const [qrWindowsUrl, setQrWindowsUrl] = useState('')
 
-  const ANDROID_APP_URL = 'https://github.com/somkene12345/MedVault/releases/download/Android/MedVault.apk';
-  const WINDOWS_APP_URL = 'https://github.com/somkene12345/MedVault/releases/download/Windows/MedVault.Setup.1.0.0.exe';
+  const ANDROID_APP_URL = 'https://drive.google.com/uc?export=download&id=1JXkQCo3izo5uwdyW8qg2RRtL5xFpCbJZ';
+  const WINDOWS_APP_URL = 'https://drive.google.com/uc?export=download&id=1WjCKFcgop152YCOMJ3_jsMwbKJOVX8WA';
 
   useEffect(() => {
     if (window.PaystackPop) {
