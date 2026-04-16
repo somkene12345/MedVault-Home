@@ -15,8 +15,8 @@ export default function Navbar({ scrollToSection }: NavbarProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [showInstallModal, setShowInstallModal] = useState(false)
 
-  const ANDROID_APP_URL = 'https://drive.google.com/uc?export=download&id=1JXkQCo3izo5uwdyW8qg2RRtL5xFpCbJZ';
-  const WINDOWS_APP_URL = 'https://drive.google.com/uc?export=download&id=1WjCKFcgop152YCOMJ3_jsMwbKJOVX8WA';
+  const ANDROID_APP_URL = 'https://github.com/somkene12345/MedVault-Home/releases/download/Android/MedVault.apk';
+  const WINDOWS_APP_URL = 'https://github.com/somkene12345/MedVault-Home/releases/download/Windows/MedVault.Setup.1.0.0.exe';
 
   useEffect(() => {
     const handleScroll = () => {
